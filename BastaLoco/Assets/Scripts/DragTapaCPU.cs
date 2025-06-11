@@ -84,7 +84,7 @@ public class ArrastrarTapa : MonoBehaviour
 
     IEnumerator EsperarYActivarBorde()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(1.5f);
         if (bordeTitilante != null)
         {
             bordeTitilante.SetActive(true);
